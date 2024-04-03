@@ -22,14 +22,7 @@ export default function TagsTable() {
   }
 
   return (
-    <div
-      style={{
-        height: 400,
-        width: "100%",
-        maxWidth: "640px",
-        margin: "0 auto",
-        marginTop: "6rem",
-      }}>
+    <div className="tags-container">
       <div className="form-control-group">
         <CountInput />
         <OrderInput />
